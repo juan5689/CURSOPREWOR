@@ -1,0 +1,73 @@
+juansf@user:~/CURSOPLATZI/CURSOPREWORK$  git config --global users.email muisicbeat123@gmail.com
+juansf@user:~/CURSOPLATZI/CURSOPREWORK$ git config --global users.name juansf
+juansf@user:~/CURSOPLATZI/CURSOPREWORK$ git config --edit --global
+juansf@user:~/CURSOPLATZI/CURSOPREWORK$ git commit -m "first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <juansf@user.localdomain>) not allowed
+juansf@user:~/CURSOPLATZI/CURSOPREWORK$   git config --global user.email muisicbeat123@gmail.com
+juansf@user:~/CURSOPLATZI/CURSOPREWORK$  git config --global user.name juansf
+juansf@user:~/CURSOPLATZI/CURSOPREWORK$ git commit -m "first commit"
+[master (root-commit) 3cbd74c] first commit
+ 2 files changed, 13 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 index.html
+juansf@user:~/CURSOPLATZI/CURSOPREWORK$ git remote agregar origen https://github.com/juan5689/CURSOPREWOR.git
+error: Unknown subcommand: agregar
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+juansf@user:~/CURSOPLATZI/CURSOPREWORK$ git branch -M main
+juansf@user:~/CURSOPLATZI/CURSOPREWORK$ git remote agregar origen https://github.com/juan5689/CURSOPREWOR.git
+error: Unknown subcommand: agregar
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+juansf@user:~/CURSOPLATZI/CURSOPREWORK$ git push -u origin main
+Username for 'https://github.com': muisicbeat123@gmail.com
+Password for 'https://muisicbeat123@gmail.com@github.com':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 445 bytes | 89.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/juan5689/CURSOPREWOR.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+juansf@user:~/CURSOPLATZI/CURSOPREWORK$ code .
+juansf@user:~/CURSOPLATZI/CURSOPREWORK$
